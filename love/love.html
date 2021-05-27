@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.love{
+			width: 800px;
+			height: 600px;
+			/*border: 1px solid #000;*/
+			margin: 100px auto;
+			position: relative;
+		}
+		.love img{
+			width: 200px;
+			height: 120px;
+			position: absolute;
+			padding: 10px;
+			box-shadow: 15px 15px 15px #999;
+			transition: all 2s;
+
+		}
+		.love img:hover{
+			transform: rotate(0deg);
+			z-index: 99;
+			transform: scale(1.5);
+
+		}
+		.love .img1{
+			transform: rotate(30deg);
+		}
+		.love .img2{
+			transform: rotate(30deg);
+			left: 150px;
+			top: 250px;
+		}
+		.love .img3{
+			transform: rotate(60deg);
+			left: 350px;
+			top: 300px;
+		}
+		.love .img4{
+			transform: rotate(90deg);
+			left: 250px;
+			top: 300px;
+		}
+		.love .img5{
+			transform: rotate(120deg);
+			left: 450px;
+			top: 400px;
+		}
+		.love .img6{
+			transform: rotate(45deg);
+			left: 250px;
+			top: 120px;
+		}
+		.love .img7{
+			transform: rotate(65deg);
+			left: 50px;
+			top: 300px;
+		}
+		.love .img8{
+			transform: rotate(75deg);
+			left: 155px;
+			top: 200px;
+		}
+	</style>
+</head>
+<body>
+	<div class="love">
+		<img src="1.jpg" alt="" class="img1">
+		<img src="2.jpg" alt="" class="img2">
+		<img src="3.jpg" alt="" class="img3">
+		<img src="4.jpg" alt="" class="img4">
+		<img src="5.jpg" alt="" class="img5">
+		<img src="6.jpg" alt="" class="img6">
+		<img src="7.jpg" alt="" class="img7">
+		<img src="8.jpg" alt="" class="img8">
+	</div>
+</body>
+</html>
